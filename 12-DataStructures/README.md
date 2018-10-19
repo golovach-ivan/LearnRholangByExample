@@ -157,7 +157,7 @@ new alice, bob, key1, key2, stdout(`rho:io:stdout`) in {
 
 
 
-What tuple is used to build the compound name in `contract @(*self, "getVal") = { Nil }`?
+What tuple is used to build the compound name in `contract @(*self, "getVal")(_) = { Nil }`?
 - [ ] `self`
 - [ ] `"getval"`
 - [x] `(*self, getVal)`
